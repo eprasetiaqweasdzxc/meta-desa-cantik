@@ -380,8 +380,8 @@
             "componentValidation": ["bjusbym@$ROW$"],
             "validations": [
                 {
-                    "test": "let value = getValue('bjusbym#' + getRowIndex(0)); value && !/^[0-9]+$/.test(value)",
-                    "message": "Hanya boleh diisi dengan angka, tidak boleh ada huruf, spasi, atau simbol",
+                    "test": "let value = getValue('bjb#' + getRowIndex(0)); !/^[0-9]+$/.test(value)",
+                    "message": "Hanya boleh diisi dengan angka",
                     "type": 2
                 }
             ]
@@ -402,8 +402,8 @@
             "componentValidation": ["jpydpuu"],
             "validations": [
                 {
-                    "test": "getValue('jpydpuu#'+getRowIndex(0)) < 1",
-                    "message": "Pilih salah satu",
+                    "test": "let value = getValue('bjb#' + getRowIndex(0)); !/^[0-9]+$/.test(value)",
+                    "message": "Hanya boleh diisi dengan angka",
                     "type": 2
                 }
             ]
@@ -413,8 +413,8 @@
             "componentValidation": ["jpytdpuu@$ROW$"],
             "validations": [
                 {
-                    "test": "getValue('jpytdpuu#'+getRowIndex(0)) < 1",
-                    "message": "Pilih salah satu",
+                    "test": "let value = getValue('bjb#' + getRowIndex(0)); !/^[0-9]+$/.test(value)",
+                    "message": "Hanya boleh diisi dengan angka",
                     "type": 2
                 }
             ]
@@ -688,8 +688,8 @@
             "componentValidation": ["llbtt"],
             "validations": [
                 {
-                    "test": "let value = getValue('llbtt'); value === '' || value === null ? false : value < 1",
-                    "message": "Pilih salah satu",
+                    "test": "let value = getValue('ltbtt'); value && value.trim().length === 0",
+                    "message": "Luas lantai Bangunan",
                     "type": 2
                 }
             ]

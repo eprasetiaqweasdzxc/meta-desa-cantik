@@ -28,7 +28,7 @@ return new class extends Migration
             $table->integer('hasil_kunjungan')->nullable();
             $table->string('pcl')->nullable();
             $table->string('pml')->nullable();
-            
+
             $table->integer('skbttyt')->nullable();
             $table->integer('jpsmn')->nullable();
             $table->integer('llbtt')->nullable();
@@ -72,7 +72,7 @@ return new class extends Migration
             $table->string('jtym')->nullable();
             $table->integer('jaiuy')->nullable();
             $table->integer('akimradp')->nullable();
-            
+
             // $table->integer('r6a')->nullable();
             // $table->integer('r8a')->nullable();
             // $table->integer('r8b')->nullable();
