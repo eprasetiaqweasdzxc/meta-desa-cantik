@@ -1,5 +1,5 @@
 {
-    "description": "PENDATAAN LENGKAP KONDISI SOSIAL EKONOMI KELURAHAN TUMUMPA DUA",
+    "description": "PENDATAAN LENGKAP KONDISI SOSIAL EKONOMI DESA WATUDAMBO DUA",
     "dataKey": "DESA CANTIK-2024",
     "title": "DESA CANTIK 2024",
     "acronym": "DESA CANTIK",
@@ -72,7 +72,7 @@
                             "isEditable": false
                         },
                         {
-                            "label": "105. Kode SLS/Non SLS",
+                            "label": "r105. Kode SLS/Non SLS",
                             "dataKey": "kn",
                             "type": 25,
                             "typeOption": 1,
@@ -80,7 +80,7 @@
                             "enableRemark": false
                         },
                         {
-                            "label": "106. Nama SLS/Non SLS",
+                            "label": "r106. Nama SLS/Non SLS",
                             "dataKey": "nn",
                             "type": 25,
                             "typeOption": 1,
@@ -113,7 +113,7 @@
                         },
                         {
                             "label": "110. Nomor Urut Keluarga Hasil Terverikasi",
-                            "dataKey": "nukht",
+                            "dataKey": "nukhv",
                             "type": 25,
                             "typeOption": 1,
                             "required": true,
@@ -145,7 +145,7 @@
                         },
                         {
                             "label": "114. Nomor Kartu Keluarga",
-                            "dataKey": "nokk",
+                            "dataKey": "nkk",
                             "type": 25,
                             "typeOption": 1,
                             "required": true,
@@ -265,14 +265,14 @@
                                     "type": 3
                                 },
                                 {
-                                    "label": "401. Nama <b>Anggota Rumah Tangga</b>",
+                                    "label": "r401. Nama <b>Anggota Rumah Tangga</b>",
                                     "type": 25,
                                     "dataKey": "nama_art",
                                     "required": true
                                 },
                                 {
-                                    "label": "402. Nomor urut anggota keluarga?",
-                                    "dataKey": "nuak",
+                                    "label": "r402. Nomor urut anggota keluarga?",
+                                    "dataKey": "r402",
                                     "type": 25,
                                     "required": true,
                                     "tabular": false,
@@ -283,8 +283,8 @@
                                     "isEditableList": true
                                 },
                                 {
-                                    "label": "403. Nomor Induk Kependudukan?",
-                                    "dataKey": "nik",
+                                    "label": "r403. Nomor Induk Kependudukan?",
+                                    "dataKey": "r403",
                                     "type": 25,
                                     "required": true,
                                     "tabular": false,
@@ -295,8 +295,8 @@
                                     "isEditableList": true
                                 },
                                 {
-                                    "label": "404. Keberadaan anggota keluarga?",
-                                    "dataKey": "kak",
+                                    "label": "r404. Keberadaan anggota keluarga?",
+                                    "dataKey": "r404",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
@@ -329,14 +329,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "405. Jenis kelamin?",
-                                    "dataKey": "jk",
+                                    "label": "r405. Jenis kelamin?",
+                                    "dataKey": "r405",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Laki-Laki",
@@ -349,8 +349,8 @@
                                     ]
                                 },
                                 {
-                                    "label": "406. Tanggal lahir?",
-                                    "dataKey": "tl",
+                                    "label": "r406. Tanggal lahir?",
+                                    "dataKey": "r406",
                                     "type": 11,
                                     "required": true,
                                     "tabular": false,
@@ -365,12 +365,12 @@
                                             "max": "today"
                                         }
                                     ],
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"]
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"]
                                 },
                                 {
-                                    "label": "407. Umur",
-                                    "dataKey": "umur",
+                                    "label": "r407. Umur",
+                                    "dataKey": "r407",
                                     "type": 25,
                                     "required": true,
                                     "tabular": false,
@@ -379,18 +379,18 @@
                                     "disableInput": false,
                                     "disableInitial": false,
                                     "isEditableList": true,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"]
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"]
                                 },
                                 {
-                                    "label": "408. Status perkawinan?",
-                                    "dataKey": "sp",
+                                    "label": "r408. Status perkawinan?",
+                                    "dataKey": "r408",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Belum nikah",
@@ -411,14 +411,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "409. Status hubungan dengan kepala keluarga?",
-                                    "dataKey": "shdkk",
+                                    "label": "r409. Status hubungan dengan kepala keluarga?",
+                                    "dataKey": "r409",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Kepala keluarga",
@@ -455,14 +455,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "410. Jika (Nama) merupakan wanita berusia 10-54 tahun dan pertanyaan sebelumnya memilih nomor 2,3, atau 4?, apakah saat ini (nama) sedang hamil",
-                                    "dataKey": "jmwbtdp",
+                                    "label": "r410. Jika (Nama) merupakan wanita berusia 10-54 tahun dan pertanyaan sebelumnya memilih nomor 2,3, atau 4?, apakah saat ini (nama) sedang hamil",
+                                    "dataKey": "r410",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": false,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Ya",
@@ -475,14 +475,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "411. Apakah (nama) memiliki kartu identitas?",
-                                    "dataKey": "amkk",
+                                    "label": "r411. Apakah (nama) memiliki kartu identitas?",
+                                    "dataKey": "r411",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Tidak memiliki",
@@ -508,14 +508,14 @@
                                     "type": 3
                                 },
                                 {
-                                    "label": "412. Partisipasi sekolah?",
-                                    "dataKey": "ps",
+                                    "label": "r412. Partisipasi sekolah?",
+                                    "dataKey": "r412",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Tidak/belum pernah sekolah",
@@ -532,13 +532,13 @@
                                     ]
                                 },
                                 {
-                                    "label": "413. Jenjang dan jenis pendidikan tertinggi yang pernah/sedang diduduki?",
-                                    "dataKey": "jjptypsd",
+                                    "label": "r413. Jenjang dan jenis pendidikan tertinggi yang pernah/sedang diduduki?",
+                                    "dataKey": "r413",
                                     "type": 27,
                                     "typeOption": 1,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('ps@$ROW$'); if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '1' }",
-                                    "componentEnable": ["ps@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r412@$ROW$'); if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '1' }",
+                                    "componentEnable": ["r412@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Paket A",
@@ -632,13 +632,13 @@
                                 },
                                 {
                                     "label": "414. Kelas tertinggi yang pernah/sedang diduduki?",
-                                    "dataKey": "ktypsd",
+                                    "dataKey": "r414",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('ps@$ROW$'); if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '1' }",
-                                    "componentEnable": ["ps@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r412@$ROW$'); if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '1' }",
+                                    "componentEnable": ["r412@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1",
@@ -675,14 +675,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "415. Ijazah/STBB tertinggi yang dimiliki?",
-                                    "dataKey": "istyd",
+                                    "label": "r415. Ijazah/STBB tertinggi yang dimiliki?",
+                                    "dataKey": "r415",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('ps@$ROW$'); if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '1' }",
-                                    "componentEnable": ["ps@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r412@$ROW$'); if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '1' }",
+                                    "componentEnable": ["r412@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Paket A",
@@ -784,14 +784,14 @@
                                     "type": 3
                                 },
                                 {
-                                    "label": "416. A. Apakah (nama) bekerja/membantu bekerja selama seminggu yang lalu?",
-                                    "dataKey": "abmbssyl",
+                                    "label": "r416. A. Apakah (nama) bekerja/membantu bekerja selama seminggu yang lalu?",
+                                    "dataKey": "r416",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Ya",
@@ -804,8 +804,8 @@
                                     ]
                                 },
                                 {
-                                    "label": "416. B. Berapa jam (nama) bekerja?",
-                                    "dataKey": "bjb",
+                                    "label": "r4161. B. Berapa jam (nama) bekerja?",
+                                    "dataKey": "r4161",
                                     "type": 25,
                                     "required": true,
                                     "tabular": false,
@@ -814,18 +814,18 @@
                                     "disableInput": false,
                                     "disableInitial": false,
                                     "isEditableList": true,
-                                    "enableCondition": "let partisipasi = getValue('abmbssyl@$ROW$'); if(partisipasi != undefined && partisipasi != '') { return partisipasi[0].value != '2'; }",
-                                    "componentEnable": ["abmbssyl@$ROW$"]
+                                    "enableCondition": "let partisipasi = getValue('r416@$ROW$'); if(partisipasi != undefined && partisipasi != '') { return partisipasi[0].value != '2'; }",
+                                    "componentEnable": ["r416@$ROW$"]
                                 },
                                 {
-                                    "label": "417. Lapangan usaha dari pekerjaan utama?",
-                                    "dataKey": "lpdpu",
+                                    "label": "r417. Lapangan usaha dari pekerjaan utama?",
+                                    "dataKey": "r417",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('abmbssyl@$ROW$'); if(partisipasi != undefined && partisipasi != '') { return partisipasi[0].value != '2'; }",
-                                    "componentEnable": ["abmbssyl@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r416@$ROW$'); if(partisipasi != undefined && partisipasi != '') { return partisipasi[0].value != '2'; }",
+                                    "componentEnable": ["r416@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Pertanian tanaman padi dan palawija",
@@ -934,14 +934,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "418. Status dalam pekerjaan utama?",
-                                    "dataKey": "sqpu",
+                                    "label": "r418. Status dalam pekerjaan utama?",
+                                    "dataKey": "r418",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('abmbssyl@$ROW$'); if(partisipasi != undefined && partisipasi != '') { return partisipasi[0].value != '2'; }",
-                                    "componentEnable": ["abmbssyl@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r416@$ROW$'); if(partisipasi != undefined && partisipasi != '') { return partisipasi[0].value != '2'; }",
+                                    "componentEnable": ["r416@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Berusaha sendiri",
@@ -978,14 +978,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "419. Apakah (nama) memiliki NPWP?",
-                                    "dataKey": "amnpwp",
+                                    "label": "r419. Apakah (nama) memiliki NPWP?",
+                                    "dataKey": "r419",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Ada, dapat menunjukkan",
@@ -1007,14 +1007,14 @@
                                     "type": 3
                                 },
                                 {
-                                    "label": "420. A. Apakah (nama) memiliki usaha sendiri/bersama?",
-                                    "dataKey": "amusb",
+                                    "label": "r420. A. Apakah (nama) memiliki usaha sendiri/bersama?",
+                                    "dataKey": "r420",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Ya",
@@ -1027,8 +1027,8 @@
                                     ]
                                 },
                                 {
-                                    "label": "420. B. Berapa jumlah usaha sendiri/bersama yang dimilki?",
-                                    "dataKey": "bjusbym",
+                                    "label": "r4201. B. Berapa jumlah usaha sendiri/bersama yang dimilki?",
+                                    "dataKey": "r4201",
                                     "type": 25,
                                     "required": true,
                                     "tabular": false,
@@ -1037,18 +1037,18 @@
                                     "disableInput": false,
                                     "disableInitial": false,
                                     "isEditableList": true,
-                                    "enableCondition": "let partisipasi = getValue('amusb@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
-                                    "componentEnable": ["amusb@$ROW$"]
+                                    "enableCondition": "let partisipasi = getValue('r420@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
+                                    "componentEnable": ["r420@$ROW$"]
                                 },
                                 {
-                                    "label": "421. Apakah lapangan usaha dari usaha utama tersebut ?",
-                                    "dataKey": "aluduut",
+                                    "label": "r421. Apakah lapangan usaha dari usaha utama tersebut ?",
+                                    "dataKey": "r421",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('amusb@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
-                                    "componentEnable": ["amusb@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r420@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
+                                    "componentEnable": ["r420@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Pertanian tanaman padi dan palawija",
@@ -1157,8 +1157,8 @@
                                     ]
                                 },
                                 {
-                                    "label": "422. Jumlah pekerja yang dibayar pada usaha utama?",
-                                    "dataKey": "jpydpuu",
+                                    "label": "r422. Jumlah pekerja yang dibayar pada usaha utama?",
+                                    "dataKey": "r422",
                                     "type": 25,
                                     "required": true,
                                     "tabular": false,
@@ -1167,12 +1167,12 @@
                                     "disableInput": false,
                                     "disableInitial": false,
                                     "isEditableList": true,
-                                    "enableCondition": "let partisipasi = getValue('amusb@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
-                                    "componentEnable": ["amusb@$ROW$"]
+                                    "enableCondition": "let partisipasi = getValue('r420@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
+                                    "componentEnable": ["r420@$ROW$"]
                                 },
                                 {
-                                    "label": "423. Jumlah pekerja yang tidak dibayar pada usaha utama?",
-                                    "dataKey": "jpytdpuu",
+                                    "label": "r423. Jumlah pekerja yang tidak dibayar pada usaha utama?",
+                                    "dataKey": "r423",
                                     "type": 25,
                                     "required": true,
                                     "tabular": false,
@@ -1181,18 +1181,18 @@
                                     "disableInput": false,
                                     "disableInitial": false,
                                     "isEditableList": true,
-                                    "enableCondition": "let partisipasi = getValue('amusb@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
-                                    "componentEnable": ["amusb@$ROW$"]
+                                    "enableCondition": "let partisipasi = getValue('r420@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
+                                    "componentEnable": ["r420@$ROW$"]
                                 },
                                 {
-                                    "label": "424. Kepemilikan perizinan usaha utama?",
-                                    "dataKey": "kpuu",
+                                    "label": "r424. Kepemilikan perizinan usaha utama?",
+                                    "dataKey": "r424",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('amusb@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
-                                    "componentEnable": ["amusb@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r424@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
+                                    "componentEnable": ["r424@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Surat Izin Tempat Usaha (SITU)",
@@ -1245,14 +1245,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "425. Omzet usaha utama perbulan (Rupiah)?",
-                                    "dataKey": "ouupr",
+                                    "label": "r425. Omzet usaha utama perbulan (Rupiah)?",
+                                    "dataKey": "r425",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('amusb@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
-                                    "componentEnable": ["amusb@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r420@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
+                                    "componentEnable": ["r420@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. <5 Juta (ultra mikro)",
@@ -1285,14 +1285,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "426. Penggunaan internet dalam kegiatan usaha utama?",
-                                    "dataKey": "pidkuu",
+                                    "label": "r426. Penggunaan internet dalam kegiatan usaha utama?",
+                                    "dataKey": "r426",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('amusb@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
-                                    "componentEnable": ["amusb@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r420@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
+                                    "componentEnable": ["r420@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Tidak menggunakan internet",
@@ -1330,14 +1330,14 @@
                                     "type": 3
                                 },
                                 {
-                                    "label": "427. Pertanyaan untuk usia 0-4 tahun. Bagaimana kondisi gizi anak dari pemeriksaan 3 bulan terakhir di posyandu/puskesmas/rumah sakit dengan mengacu pada catatan/buku kontrol?",
-                                    "dataKey": "puubkg",
+                                    "label": "r427. Pertanyaan untuk usia 0-4 tahun. Bagaimana kondisi gizi anak dari pemeriksaan 3 bulan terakhir di posyandu/puskesmas/rumah sakit dengan mengacu pada catatan/buku kontrol?",
+                                    "dataKey": "r427",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Kurang gizi(Wasting)",
@@ -1358,8 +1358,64 @@
                                     ]
                                 },
                                 {
-                                    "label": "428. A. Apakah (nama) mengalamami kesulitan/gangguan penghlihatan meskipun menggunakan alat bantu melihat?",
-                                    "dataKey": "amkgpmmabm",
+                                    "label": "r428. A. Apakah (nama) mengalamami kesulitan/gangguan penghlihatan meskipun menggunakan alat bantu melihat?",
+                                    "dataKey": "r428",
+                                    "type": 27,
+                                    "typeOption": 1,
+                                    "required": true,
+                                    "enableRemark": false,
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
+                                    "options": [
+                                        {
+                                            "label": "1. Ya, sama sekali tidak bisa",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "label": "2. Ya, banyak kesulitan dan membutuhkan bantuan",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "label": "3. Ya, sedikit kesulitan, tapi tidak membutuhkan bantuan",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "label": "4. Tidak mengalami kesulitan",
+                                            "value": "4"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "label": "r4281. B. Apakah (nama) mengalamami kesulitan/gangguan pendengaran meskipun menggunakan alat bantu dengar?",
+                                    "dataKey": "r4281",
+                                    "type": 27,
+                                    "typeOption": 1,
+                                    "required": true,
+                                    "enableRemark": false,
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
+                                    "options": [
+                                        {
+                                            "label": "1. Ya, sama sekali tidak bisa",
+                                            "value": "1"
+                                        },
+                                        {
+                                            "label": "2. Ya, banyak kesulitan dan membutuhkan bantuan",
+                                            "value": "2"
+                                        },
+                                        {
+                                            "label": "3. Ya, sedikit kesulitan, tapi tidak membutuhkan bantuan",
+                                            "value": "3"
+                                        },
+                                        {
+                                            "label": "4. Tidak mengalami kesulitan",
+                                            "value": "4"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "label": "r4282. C. Apakah (nama) mengalamami kesulitan/gangguan berjalan atau naik tangga?",
+                                    "dataKey": "r4282",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
@@ -1386,14 +1442,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "428. B. Apakah (nama) mengalamami kesulitan/gangguan pendengaran meskipun menggunakan alat bantu dengar?",
-                                    "dataKey": "amkgpmmabd",
+                                    "label": "r4283. D. Apakah (nama) mengalamami kesulitan/gangguan menggerakkan/menggunakan tangan/jari?",
+                                    "dataKey": "r4283",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Ya, sama sekali tidak bisa",
@@ -1414,14 +1470,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "428. C. Apakah (nama) mengalamami kesulitan/gangguan berjalan atau naik tangga?",
-                                    "dataKey": "amkgbana",
+                                    "label": "r4284. E. Dibangdingkan dengan penduduk yang sebaya, apakah (nama) mengalami kesulitan/gangguan dalam belajar atau kemampuan intelektual?",
+                                    "dataKey": "r4284",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Ya, sama sekali tidak bisa",
@@ -1442,14 +1498,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "428. D. Apakah (nama) mengalamami kesulitan/gangguan menggerakkan/menggunakan tangan/jari?",
-                                    "dataKey": "amkmmtj",
+                                    "label": "r4285. F. Dibandingkan dengan penduduk yang sebaya, apakah (nama) mengalami kesulitan/gangguan mengendalikan perilaku?",
+                                    "dataKey": "r4285",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Ya, sama sekali tidak bisa",
@@ -1470,14 +1526,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "428. E. Dibangdingkan dengan penduduk yang sebaya, apakah (nama) mengalami kesulitan/gangguan dalam belajar atau kemampuan intelektual?",
-                                    "dataKey": "ddpys",
+                                    "label": "r4286. G. Apakah (nama) mengalamami kesulitan/gangguan berbicara/berkomunikasi?",
+                                    "dataKey": "r4286",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Ya, sama sekali tidak bisa",
@@ -1498,14 +1554,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "428. F. Dibandingkan dengan penduduk yang sebaya, apakah (nama) mengalami kesulitan/gangguan mengendalikan perilaku?",
-                                    "dataKey": "ddpysam",
+                                    "label": "r4287. H. Apakah (nama) mengalamami kesulitan/gangguan untuk mengurus diri sendiri? (mandi, makan, berpakaian, BAK, BAB)",
+                                    "dataKey": "r4287",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Ya, sama sekali tidak bisa",
@@ -1526,70 +1582,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "428. G. Apakah (nama) mengalamami kesulitan/gangguan berbicara/berkomunikasi?",
-                                    "dataKey": "ammkgbb",
+                                    "label": "r4288. I. Apakah (nama) mengalamami kesulitan/gangguan mengingat/berkonsentrasi?",
+                                    "dataKey": "r4288",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
-                                    "options": [
-                                        {
-                                            "label": "1. Ya, sama sekali tidak bisa",
-                                            "value": "1"
-                                        },
-                                        {
-                                            "label": "2. Ya, banyak kesulitan dan membutuhkan bantuan",
-                                            "value": "2"
-                                        },
-                                        {
-                                            "label": "3. Ya, sedikit kesulitan, tapi tidak membutuhkan bantuan",
-                                            "value": "3"
-                                        },
-                                        {
-                                            "label": "4. Tidak mengalami kesulitan",
-                                            "value": "4"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "label": "428. H. Apakah (nama) mengalamami kesulitan/gangguan untuk mengurus diri sendiri? (mandi, makan, berpakaian, BAK, BAB)",
-                                    "dataKey": "amkgumds",
-                                    "type": 27,
-                                    "typeOption": 1,
-                                    "required": true,
-                                    "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
-                                    "options": [
-                                        {
-                                            "label": "1. Ya, sama sekali tidak bisa",
-                                            "value": "1"
-                                        },
-                                        {
-                                            "label": "2. Ya, banyak kesulitan dan membutuhkan bantuan",
-                                            "value": "2"
-                                        },
-                                        {
-                                            "label": "3. Ya, sedikit kesulitan, tapi tidak membutuhkan bantuan",
-                                            "value": "3"
-                                        },
-                                        {
-                                            "label": "4. Tidak mengalami kesulitan",
-                                            "value": "4"
-                                        }
-                                    ]
-                                },
-                                {
-                                    "label": "428. I. Apakah (nama) mengalamami kesulitan/gangguan mengingat/berkonsentrasi?",
-                                    "dataKey": "amkgmb",
-                                    "type": 27,
-                                    "typeOption": 1,
-                                    "required": true,
-                                    "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Ya, sama sekali tidak bisa",
@@ -1610,14 +1610,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "428. J. Seberapa sering (nama) mengalami gangguan kesedihan depresi?",
-                                    "dataKey": "ssmgkd",
+                                    "label": "r4289. J. Seberapa sering (nama) mengalami gangguan kesedihan depresi?",
+                                    "dataKey": "r4289",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Sangat sering",
@@ -1638,14 +1638,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "429. Jika (nama) berusia 60 tahun ke atas atau pertanyaan sebelum ini yang memilih 1 atau 2. Apakah (Nama) memiliki caregiver/pemberi rawat/pengasuh/wali?",
-                                    "dataKey": "jbtkaapsi",
+                                    "label": "r429. Jika (nama) berusia 60 tahun ke atas atau pertanyaan sebelum ini yang memilih 1 atau 2. Apakah (Nama) memiliki caregiver/pemberi rawat/pengasuh/wali?",
+                                    "dataKey": "r429",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let depression = getValue('ssmgkd@$ROW$'); \n\n if(depression != undefined && depression != '') { ['1', '2'].includes(depression[0].value) }",
-                                    "componentEnable": ["ssmgkd@$ROW$"],
+                                    "enableCondition": "let depression = getValue('r4289@$ROW$'); \n\n if(depression != undefined && depression != '') { ['1', '2'].includes(depression[0].value) }",
+                                    "componentEnable": ["r4289@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Ya, anggota keluarga",
@@ -1662,14 +1662,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "430. Apakah (nama) memiliki keluhan kesehatan kronis/menahun?",
-                                    "dataKey": "amkkkm",
+                                    "label": "r430. Apakah (nama) memiliki keluhan kesehatan kronis/menahun?",
+                                    "dataKey": "r430",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Tidak ada",
@@ -1751,14 +1751,14 @@
                                     "type": 3
                                 },
                                 {
-                                    "label": "431. A. Dalam satu tahun terakhir, apakah (nama) memilki jaminan kesehatan?",
-                                    "dataKey": "dstt",
+                                    "label": "r431. A. Dalam satu tahun terakhir, apakah (nama) memilki jaminan kesehatan?",
+                                    "dataKey": "r431",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Tidak memiliki",
@@ -1787,14 +1787,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "431. B. Dalam satu tahun terakhir, apakah (nama) ikut serta dalam Program Pra-Kerja?",
-                                    "dataKey": "dsttaisdppp",
+                                    "label": "r4311. B. Dalam satu tahun terakhir, apakah (nama) ikut serta dalam Program Pra-Kerja?",
+                                    "dataKey": "r4311",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Ya",
@@ -1811,14 +1811,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "431. C. Dalam satu tahun terakhir, apakah (nama) ikut serta dalam Program Kredit Usaha Rakyat (KUR)?",
-                                    "dataKey": "aisdpkur",
+                                    "label": "r4312. C. Dalam satu tahun terakhir, apakah (nama) ikut serta dalam Program Kredit Usaha Rakyat (KUR)?",
+                                    "dataKey": "r4312",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Ya",
@@ -1835,14 +1835,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "431. D. Dalam satu tahun terakhir, apakah (nama) ikut serta dalam Program Pembiayaan Ultra Mikro (UMi)?",
-                                    "dataKey": "anisdppum",
+                                    "label": "r4313. D. Dalam satu tahun terakhir, apakah (nama) ikut serta dalam Program Pembiayaan Ultra Mikro (UMi)?",
+                                    "dataKey": "r4313",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Ya",
@@ -1859,14 +1859,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "431. E. Dalam satu tahun terakhir, apakah (nama) ikut serta dalam Program Indonesia Pintar (PIP)?",
-                                    "dataKey": "aisdpip",
+                                    "label": "r4314. E. Dalam satu tahun terakhir, apakah (nama) ikut serta dalam Program Indonesia Pintar (PIP)?",
+                                    "dataKey": "r4314",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Ya",
@@ -1883,14 +1883,14 @@
                                     ]
                                 },
                                 {
-                                    "label": "431. F. Dalam satu tahun terakhir, apakah (nama) memiliki jaminan ketenagakerjaan?",
-                                    "dataKey": "amjk",
+                                    "label": "r4315. F. Dalam satu tahun terakhir, apakah (nama) memiliki jaminan ketenagakerjaan?",
+                                    "dataKey": "r4315",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('kak@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
-                                    "componentEnable": ["kak@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r404@$ROW$'); partisipasi != undefined && partisipasi != '' && !['2', '3', '4', '6'].includes(partisipasi[0].value)",
+                                    "componentEnable": ["r404@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Tidak memiliki",
@@ -1942,8 +1942,8 @@
                             "type": 3
                         },
                         {
-                            "label": "301. A. Status kepemilikan bangunan tempat tinggal yang ditempati?",
-                            "dataKey": "skbttyt",
+                            "label": "r301. A. Status kepemilikan bangunan tempat tinggal yang ditempati?",
+                            "dataKey": "r301",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -1972,14 +1972,14 @@
                             ]
                         },
                         {
-                            "label": "301. B. Jika pertanyaan sebelumnya memilih no 1, apa jenis bukti kepemilikan tanah bangunan tempat tinggal ini?",
-                            "dataKey": "jpsmn",
+                            "label": "r301. B. Jika pertanyaan sebelumnya memilih no 1, apa jenis bukti kepemilikan tanah bangunan tempat tinggal ini?",
+                            "dataKey": "r3011",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
                             "enableRemark": false,
-                            "enableCondition": "let skbttyt = getValue('skbttyt')[0]?.value \n\n skbttyt == 1",
-                            "componentEnable": ["skbttyt"],
+                            "enableCondition": "let r301 = getValue('r301')[0]?.value \n\n r301 == 1",
+                            "componentEnable": ["r301"],
                             "options": [
                                 {
                                     "label": "1. SHM atas Nama Anggota Keluarga",
@@ -2008,8 +2008,8 @@
                             ]
                         },
                         {
-                            "label": "302. Luas lantai bangunan tempat tinggal?",
-                            "dataKey": "llbtt",
+                            "label": "r302. Luas lantai bangunan tempat tinggal?",
+                            "dataKey": "r302",
                             "type": 25,
                             "required": true,
                             "tabular": false,
@@ -2020,8 +2020,8 @@
                             "isEditableList": true
                         },
                         {
-                            "label": "303. Jenis lantai terluas?",
-                            "dataKey": "jll",
+                            "label": "r303. Jenis lantai terluas?",
+                            "dataKey": "r303",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2066,8 +2066,8 @@
                             ]
                         },
                         {
-                            "label": "304. Jenis dinding terluas?",
-                            "dataKey": "jdt",
+                            "label": "r304. Jenis dinding terluas?",
+                            "dataKey": "r304",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2104,8 +2104,8 @@
                             ]
                         },
                         {
-                            "label": "305. Jenis atap terluas?",
-                            "dataKey": "jat",
+                            "label": "r305. Jenis atap terluas?",
+                            "dataKey": "r305",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2146,8 +2146,8 @@
                             ]
                         },
                         {
-                            "label": "306. A. Sumber air minum utama?",
-                            "dataKey": "samu",
+                            "label": "r306. A. Sumber air minum utama?",
+                            "dataKey": "r306",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2200,14 +2200,14 @@
                             ]
                         },
                         {
-                            "label": "306. B. Jika pertanyaan sebelumnya memilih nomor 4, 5, 6, 7, atau 8. Seberapa jauh jarak sumber air minum utama ke tempat penampungan limbah/kotoran/tinja terdekat ?",
-                            "dataKey": "sjjsam",
+                            "label": "r3061. B. Jika pertanyaan sebelumnya memilih nomor 4, 5, 6, 7, atau 8. Seberapa jauh jarak sumber air minum utama ke tempat penampungan limbah/kotoran/tinja terdekat ?",
+                            "dataKey": "r3061",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
                             "enableRemark": false,
-                            "enableCondition": "let samu = getValue('samu')[0]?.value \n\n samu == 4 || samu == 5 || samu == 6 || samu == 7 || samu == 8",
-                            "componentEnable": ["samu"],
+                            "enableCondition": "let r306 = getValue('r306')[0]?.value \n\n r306 == 4 || r306 == 5 || r306 == 6 || r306 == 7 || r306 == 8",
+                            "componentEnable": ["r306"],
                             "options": [
                                 {
                                     "label": "1. < 10 meter",
@@ -2224,8 +2224,8 @@
                             ]
                         },
                         {
-                            "label": "307. A. Sumber peneragan utama ?",
-                            "dataKey": "spu",
+                            "label": "r307. A. Sumber peneragan utama ?",
+                            "dataKey": "r307",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2250,14 +2250,14 @@
                             ]
                         },
                         {
-                            "label": "307. B. Jika pertanyaan sebelumnya memilih nomor 1. Daya yang terpasang di rumah ini ?",
-                            "dataKey": "dytdri",
+                            "label": "r3071. B. Jika pertanyaan sebelumnya memilih nomor 1. Daya yang terpasang di rumah ini ?",
+                            "dataKey": "r3071",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
                             "enableRemark": false,
-                            "enableCondition": "let spu = getValue('spu')[0]?.value \n\n spu == 1",
-                            "componentEnable": ["spu"],
+                            "enableCondition": "let r307 = getValue('r307')[0]?.value \n\n r307 == 1",
+                            "componentEnable": ["r307"],
                             "options": [
                                 {
                                     "label": "1. 450 watt",
@@ -2282,8 +2282,8 @@
                             ]
                         },
                         {
-                            "label": "308. Bahan bakar/energi utama untuk memasak?",
-                            "dataKey": "bbeuum",
+                            "label": "r308. Bahan bakar/energi utama untuk memasak?",
+                            "dataKey": "r308",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2340,8 +2340,8 @@
                             ]
                         },
                         {
-                            "label": "309. A. Kepemilikan dan penggunan fasilatas tempat buang air besar ?",
-                            "dataKey": "kdpftbab",
+                            "label": "r309. A. Kepemilikan dan penggunan fasilatas tempat buang air besar ?",
+                            "dataKey": "r309",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2374,14 +2374,14 @@
                             ]
                         },
                         {
-                            "label": "309. B. Jika pertanyaan sebelumnya memilih nomor 1, 2, atau 3. Jenis kloset",
-                            "dataKey": "jpsjk",
+                            "label": "r3091. B. Jika pertanyaan sebelumnya memilih nomor 1, 2, atau 3. Jenis kloset",
+                            "dataKey": "r3091",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
                             "enableRemark": false,
-                            "enableCondition": "let kdpftbab = getValue('kdpftbab')[0]?.value \n\n kdpftbab == 1 || kdpftbab == 2 || kdpftbab == 3 ",
-                            "componentEnable": ["kdpftbab"],
+                            "enableCondition": "let r309 = getValue('r309')[0]?.value \n\n r309 == 1 || r309 == 2 || r309 == 3 ",
+                            "componentEnable": ["r309"],
                             "options": [
                                 {
                                     "label": "1. Leher angsa",
@@ -2402,8 +2402,8 @@
                             ]
                         },
                         {
-                            "label": "310. Tempat pembuangan akhir tinja ?",
-                            "dataKey": "tpat",
+                            "label": "r310. Tempat pembuangan akhir tinja ?",
+                            "dataKey": "r310",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2442,8 +2442,8 @@
                             "type": 3
                         },
                         {
-                            "label": "501. Dalam satu tahun terakhir, apakah keluarga menerima program?",
-                            "dataKey": "akmpb",
+                            "label": "r501. Dalam satu tahun terakhir, apakah keluarga menerima program?",
+                            "dataKey": "r501",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2460,8 +2460,8 @@
                             ]
                         },
                         {
-                            "label": "501. A. Program Bantuan Sosial Sembako/BPNT ",
-                            "dataKey": "pbssb",
+                            "label": "r5011. A. Program Bantuan Sosial Sembako/BPNT ",
+                            "dataKey": "r5011",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2478,8 +2478,8 @@
                             ]
                         },
                         {
-                            "label": "501. B. Program Keluarga Harapan (PKH) ",
-                            "dataKey": "pkh",
+                            "label": "r5012. B. Program Keluarga Harapan (PKH) ",
+                            "dataKey": "r5012",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2496,8 +2496,8 @@
                             ]
                         },
                         {
-                            "label": "501. C. Program Bantuan Langsung Tunai (BLT) Desa ",
-                            "dataKey": "pbltd",
+                            "label": "r5013. C. Program Bantuan Langsung Tunai (BLT) Desa ",
+                            "dataKey": "r5013",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2514,8 +2514,8 @@
                             ]
                         },
                         {
-                            "label": "501. D. Program Subsidi Listrik (gratis/pemotongan biaya) ",
-                            "dataKey": "psl",
+                            "label": "r5014. D. Program Subsidi Listrik (gratis/pemotongan biaya) ",
+                            "dataKey": "r5014",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2532,8 +2532,8 @@
                             ]
                         },
                         {
-                            "label": "501. E. Program Bantuan Pemerintah Daerah ",
-                            "dataKey": "pbpd",
+                            "label": "r5015. E. Program Bantuan Pemerintah Daerah ",
+                            "dataKey": "r5015",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2550,8 +2550,8 @@
                             ]
                         },
                         {
-                            "label": "501. F. Program Bantuan Subsidi Pupuk ",
-                            "dataKey": "pbsp",
+                            "label": "r5016. F. Program Bantuan Subsidi Pupuk ",
+                            "dataKey": "r5016",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2568,8 +2568,8 @@
                             ]
                         },
                         {
-                            "label": "501. G. Program Subsidi LPG ",
-                            "dataKey": "pslpg",
+                            "label": "r5017. G. Program Subsidi LPG ",
+                            "dataKey": "r5017",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2586,8 +2586,8 @@
                             ]
                         },
                         {
-                            "label": "502. Keluarga memiliki aset bergerak ?",
-                            "dataKey": "kmassb",
+                            "label": "r502. Keluarga memiliki aset bergerak ?",
+                            "dataKey": "r502",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2604,8 +2604,8 @@
                             ]
                         },
                         {
-                            "label": "502. A. Tabung gas 5,5 kg atau lebih",
-                            "dataKey": "tgkal",
+                            "label": "r5021. A. Tabung gas 5,5 kg atau lebih",
+                            "dataKey": "r5021",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2622,8 +2622,8 @@
                             ]
                         },
                         {
-                            "label": "502. B. Lemari es/Kulkas",
-                            "dataKey": "lk",
+                            "label": "r5022. B. Lemari es/Kulkas",
+                            "dataKey": "r5022",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2640,8 +2640,8 @@
                             ]
                         },
                         {
-                            "label": "502. C. Air Conditioner (AC) ",
-                            "dataKey": "ac",
+                            "label": "r5023. C. Air Conditioner (AC) ",
+                            "dataKey": "r5023",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2658,8 +2658,8 @@
                             ]
                         },
                         {
-                            "label": "502. D. Pemanas air (water heater) ",
-                            "dataKey": "pa",
+                            "label": "r5024. D. Pemanas air (water heater) ",
+                            "dataKey": "r5024",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2676,8 +2676,8 @@
                             ]
                         },
                         {
-                            "label": "502. E. Telepon rumah (PTSN) ",
-                            "dataKey": "tp",
+                            "label": "r5025. E. Telepon rumah (PTSN) ",
+                            "dataKey": "r5025",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2694,8 +2694,8 @@
                             ]
                         },
                         {
-                            "label": "502. F. Televisi layar datar (min. 30 inci)",
-                            "dataKey": "tld",
+                            "label": "r5026. F. Televisi layar datar (min. 30 inci)",
+                            "dataKey": "r5026",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2712,8 +2712,8 @@
                             ]
                         },
                         {
-                            "label": "502. G. Emas/perhiasan (min. 10 gram) ",
-                            "dataKey": "ep",
+                            "label": "r5027. G. Emas/perhiasan (min. 10 gram) ",
+                            "dataKey": "r5027",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2730,8 +2730,8 @@
                             ]
                         },
                         {
-                            "label": "502. H. Komputer/Laptop/Tablet ",
-                            "dataKey": "klt",
+                            "label": "r5028. H. Komputer/Laptop/Tablet ",
+                            "dataKey": "r5028",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2748,8 +2748,8 @@
                             ]
                         },
                         {
-                            "label": "502. I. Sepeda Motor ",
-                            "dataKey": "sm",
+                            "label": "r5029. I. Sepeda Motor ",
+                            "dataKey": "r5029",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2766,8 +2766,8 @@
                             ]
                         },
                         {
-                            "label": "502. J. Sepeda ",
-                            "dataKey": "sepeda",
+                            "label": "r50210. J. Sepeda ",
+                            "dataKey": "r50210",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2784,8 +2784,8 @@
                             ]
                         },
                         {
-                            "label": "502. K. Mobil ",
-                            "dataKey": "m",
+                            "label": "r50211. K. Mobil ",
+                            "dataKey": "r50211",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2802,8 +2802,8 @@
                             ]
                         },
                         {
-                            "label": "502. I. Perahu ",
-                            "dataKey": "p",
+                            "label": "r50212. I. Perahu ",
+                            "dataKey": "r50212",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2820,8 +2820,8 @@
                             ]
                         },
                         {
-                            "label": "502. M. Kapal/Perahu Motor ",
-                            "dataKey": "kpm",
+                            "label": "r50213. M. Kapal/Perahu Motor ",
+                            "dataKey": "r50213",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2838,8 +2838,8 @@
                             ]
                         },
                         {
-                            "label": "502. N. Smarphone ",
-                            "dataKey": "smp",
+                            "label": "r50214. N. Smarphone ",
+                            "dataKey": "r50214",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2856,8 +2856,8 @@
                             ]
                         },
                         {
-                            "label": "503. Keluarga memiliki aset tidak bergerak",
-                            "dataKey": "kmatbs",
+                            "label": "r503. Keluarga memiliki aset tidak bergerak",
+                            "dataKey": "r503",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2874,8 +2874,8 @@
                             ]
                         },
                         {
-                            "label": "503. A. Memiliki Lahan (selain yang ditempati) ",
-                            "dataKey": "lsyt",
+                            "label": "5031. A. Memiliki Lahan (selain yang ditempati) ",
+                            "dataKey": "r5031",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2892,8 +2892,8 @@
                             ]
                         },
                         {
-                            "label": "503. B. Memiliki rumah/bangunan di tempat lain ",
-                            "dataKey": "rb",
+                            "label": "r5032. B. Memiliki rumah/bangunan di tempat lain ",
+                            "dataKey": "r5032",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2910,8 +2910,8 @@
                             ]
                         },
                         {
-                            "label": "504. Jumlah ternak yang dimiliki (ekor) ",
-                            "dataKey": "jtym",
+                            "label": "r504. Jumlah ternak yang dimiliki (ekor) ",
+                            "dataKey": "r504",
                             "type": 25,
                             "required": true,
                             "tabular": false,
@@ -2922,8 +2922,8 @@
                             "isEditableList": true
                         },
                         {
-                            "label": "505. Jenis akses internet utama yang di gunakan keluarga selama sebulan terakhir",
-                            "dataKey": "jaiuy",
+                            "label": "r505. Jenis akses internet utama yang di gunakan keluarga selama sebulan terakhir",
+                            "dataKey": "r505",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2948,8 +2948,8 @@
                             ]
                         },
                         {
-                            "label": "506. Apakah keluarga ini memiliki rekening aktif atau dompet digital ?",
-                            "dataKey": "akimradp",
+                            "label": "r506. Apakah keluarga ini memiliki rekening aktif atau dompet digital ?",
+                            "dataKey": "r506",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
