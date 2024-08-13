@@ -19,7 +19,7 @@
                             "dataKey": "head_blok1"
                         },
                         {
-                            "label": "<span class=\"font-normal\">101. Provinsi</span>",
+                            "label": "<span class=\"font-normal\">r101. Provinsi</span>",
                             "type": 25,
                             "dataKey": "prov",
                             "required": false,
@@ -32,7 +32,7 @@
                             "isCapital": false
                         },
                         {
-                            "label": "<span class=\"font-normal\">102. Kabupaten/Kota</span>",
+                            "label": "<span class=\"font-normal\">r102. Kabupaten/Kota</span>",
                             "type": 25,
                             "dataKey": "kab",
                             "required": false,
@@ -45,7 +45,7 @@
                             "isCapital": false
                         },
                         {
-                            "label": "<span class=\"font-normal\">103. Kecamatan</span>",
+                            "label": "<span class=\"font-normal\">r103. Kecamatan</span>",
                             "type": 25,
                             "dataKey": "kec",
                             "required": false,
@@ -58,7 +58,7 @@
                             "isCapital": false
                         },
                         {
-                            "label": "<span class=\"font-normal\">104. Desa/Kelurahan</span>",
+                            "label": "<span class=\"font-normal\">r104. Desa/Kelurahan</span>",
                             "type": 25,
                             "dataKey": "desa",
                             "required": false,
@@ -73,7 +73,7 @@
                         },
                         {
                             "label": "r105. Kode SLS/Non SLS",
-                            "dataKey": "kn",
+                            "dataKey": "r105",
                             "type": 25,
                             "typeOption": 1,
                             "required": true,
@@ -81,79 +81,79 @@
                         },
                         {
                             "label": "r106. Nama SLS/Non SLS",
-                            "dataKey": "nn",
+                            "dataKey": "r106",
                             "type": 25,
                             "typeOption": 1,
                             "required": true,
                             "enableRemark": false
                         },
                         {
-                            "label": "107. Alamat",
-                            "dataKey": "almt",
+                            "label": "r107. Alamat",
+                            "dataKey": "r107",
                             "type": 25,
                             "typeOption": 1,
                             "required": true,
                             "enableRemark": false
                         },
                         {
-                            "label": "108. Nama Kepala Keluarga",
-                            "dataKey": "nkk",
+                            "label": "r108. Nama Kepala Keluarga",
+                            "dataKey": "r108",
                             "type": 25,
                             "typeOption": 1,
                             "required": true,
                             "enableRemark": false
                         },
                         {
-                            "label": "109. Nomor Urut Bangunan Tempat Tinggal",
-                            "dataKey": "nubtt",
+                            "label": "r109. Nomor Urut Bangunan Tempat Tinggal",
+                            "dataKey": "r109",
                             "type": 25,
                             "typeOption": 1,
                             "required": true,
                             "enableRemark": false
                         },
                         {
-                            "label": "110. Nomor Urut Keluarga Hasil Terverikasi",
-                            "dataKey": "nukhv",
+                            "label": "r110. Nomor Urut Keluarga Hasil Terverikasi",
+                            "dataKey": "r110",
                             "type": 25,
                             "typeOption": 1,
                             "required": true,
                             "enableRemark": false
                         },
                         {
-                            "label": "111. Status Keluarga",
-                            "dataKey": "sk",
+                            "label": "r111. Status Keluarga",
+                            "dataKey": "r111",
                             "type": 25,
                             "typeOption": 1,
                             "required": true,
                             "enableRemark": false
                         },
                         {
-                            "label": "112. Jumlah Anggota Keluarga",
-                            "dataKey": "jak",
+                            "label": "r112. Jumlah Anggota Keluarga",
+                            "dataKey": "r112",
                             "type": 25,
                             "typeOption": 1,
                             "required": true,
                             "enableRemark": false
                         },
                         {
-                            "label": "113. ID Landmark Wilkerstas",
-                            "dataKey": "ilw",
+                            "label": "r113. ID Landmark Wilkerstas",
+                            "dataKey": "r113",
                             "type": 25,
                             "typeOption": 1,
                             "required": true,
                             "enableRemark": false
                         },
                         {
-                            "label": "114. Nomor Kartu Keluarga",
-                            "dataKey": "nkk",
+                            "label": "r114. Nomor Kartu Keluarga",
+                            "dataKey": "r114",
                             "type": 25,
                             "typeOption": 1,
                             "required": true,
                             "enableRemark": false
                         },
                         {
-                            "label": "115. Kode Kartu Keluarga",
-                            "dataKey": "kkk",
+                            "label": "r115. Kode Kartu Keluarga",
+                            "dataKey": "r115",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -174,7 +174,7 @@
                             ]
                         },
                         {
-                            "label": "116. Hasil Kunjungan",
+                            "label": "r116. Hasil Kunjungan",
                             "dataKey": "hasil_kunjungan",
                             "type": 27,
                             "typeOption": 1,
@@ -196,7 +196,7 @@
                             ]
                         },
                         {
-                            "label": "117. Nama PCL",
+                            "label": "r117. Nama PCL",
                             "dataKey": "pcl",
                             "type": 25,
                             "required": true,
@@ -208,7 +208,7 @@
                             "isEditableList": true
                         },
                         {
-                            "label": "118. Nama PML",
+                            "label": "r118. Nama PML",
                             "type": 25,
                             "dataKey": "pml",
                             "required": true,
@@ -288,7 +288,7 @@
                                     "type": 25,
                                     "required": true,
                                     "tabular": false,
-                                    "encrypted": false,
+                                    " encrypted": false,
                                     "enableRemark": false,
                                     "disableInput": false,
                                     "disableInitial": false,
@@ -785,7 +785,7 @@
                                 },
                                 {
                                     "label": "r416. A. Apakah (nama) bekerja/membantu bekerja selama seminggu yang lalu?",
-                                    "dataKey": "r416",
+                                    "dataKey": "r416A",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
@@ -804,8 +804,8 @@
                                     ]
                                 },
                                 {
-                                    "label": "r4161. B. Berapa jam (nama) bekerja?",
-                                    "dataKey": "r4161",
+                                    "label": "r416. B. Berapa jam (nama) bekerja?",
+                                    "dataKey": "r416B",
                                     "type": 25,
                                     "required": true,
                                     "tabular": false,
@@ -814,8 +814,8 @@
                                     "disableInput": false,
                                     "disableInitial": false,
                                     "isEditableList": true,
-                                    "enableCondition": "let partisipasi = getValue('r416@$ROW$'); if(partisipasi != undefined && partisipasi != '') { return partisipasi[0].value != '2'; }",
-                                    "componentEnable": ["r416@$ROW$"]
+                                    "enableCondition": "let partisipasi = getValue('r416A@$ROW$'); if(partisipasi != undefined && partisipasi != '') { return partisipasi[0].value != '2'; }",
+                                    "componentEnable": ["r416A@$ROW$"]
                                 },
                                 {
                                     "label": "r417. Lapangan usaha dari pekerjaan utama?",
@@ -824,8 +824,8 @@
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('r416@$ROW$'); if(partisipasi != undefined && partisipasi != '') { return partisipasi[0].value != '2'; }",
-                                    "componentEnable": ["r416@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r416A@$ROW$'); if(partisipasi != undefined && partisipasi != '') { return partisipasi[0].value != '2'; }",
+                                    "componentEnable": ["r416A@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Pertanian tanaman padi dan palawija",
@@ -940,8 +940,8 @@
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('r416@$ROW$'); if(partisipasi != undefined && partisipasi != '') { return partisipasi[0].value != '2'; }",
-                                    "componentEnable": ["r416@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r416A@$ROW$'); if(partisipasi != undefined && partisipasi != '') { return partisipasi[0].value != '2'; }",
+                                    "componentEnable": ["r416A@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Berusaha sendiri",
@@ -1008,7 +1008,7 @@
                                 },
                                 {
                                     "label": "r420. A. Apakah (nama) memiliki usaha sendiri/bersama?",
-                                    "dataKey": "r420",
+                                    "dataKey": "r420A",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
@@ -1027,8 +1027,8 @@
                                     ]
                                 },
                                 {
-                                    "label": "r4201. B. Berapa jumlah usaha sendiri/bersama yang dimilki?",
-                                    "dataKey": "r4201",
+                                    "label": "r420. B. Berapa jumlah usaha sendiri/bersama yang dimilki?",
+                                    "dataKey": "r420B",
                                     "type": 25,
                                     "required": true,
                                     "tabular": false,
@@ -1037,8 +1037,8 @@
                                     "disableInput": false,
                                     "disableInitial": false,
                                     "isEditableList": true,
-                                    "enableCondition": "let partisipasi = getValue('r420@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
-                                    "componentEnable": ["r420@$ROW$"]
+                                    "enableCondition": "let partisipasi = getValue('r420A@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
+                                    "componentEnable": ["r420A@$ROW$"]
                                 },
                                 {
                                     "label": "r421. Apakah lapangan usaha dari usaha utama tersebut ?",
@@ -1047,8 +1047,8 @@
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('r420@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
-                                    "componentEnable": ["r420@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r420A@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
+                                    "componentEnable": ["r420A@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Pertanian tanaman padi dan palawija",
@@ -1167,8 +1167,8 @@
                                     "disableInput": false,
                                     "disableInitial": false,
                                     "isEditableList": true,
-                                    "enableCondition": "let partisipasi = getValue('r420@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
-                                    "componentEnable": ["r420@$ROW$"]
+                                    "enableCondition": "let partisipasi = getValue('r420A@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
+                                    "componentEnable": ["r420A@$ROW$"]
                                 },
                                 {
                                     "label": "r423. Jumlah pekerja yang tidak dibayar pada usaha utama?",
@@ -1181,8 +1181,8 @@
                                     "disableInput": false,
                                     "disableInitial": false,
                                     "isEditableList": true,
-                                    "enableCondition": "let partisipasi = getValue('r420@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
-                                    "componentEnable": ["r420@$ROW$"]
+                                    "enableCondition": "let partisipasi = getValue('r420A@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
+                                    "componentEnable": ["r420A@$ROW$"]
                                 },
                                 {
                                     "label": "r424. Kepemilikan perizinan usaha utama?",
@@ -1191,8 +1191,8 @@
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('r424@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
-                                    "componentEnable": ["r424@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r420A@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
+                                    "componentEnable": ["r420A@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Surat Izin Tempat Usaha (SITU)",
@@ -1251,8 +1251,8 @@
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('r420@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
-                                    "componentEnable": ["r420@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r420A@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
+                                    "componentEnable": ["r420A@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. <5 Juta (ultra mikro)",
@@ -1291,8 +1291,8 @@
                                     "typeOption": 1,
                                     "required": true,
                                     "enableRemark": false,
-                                    "enableCondition": "let partisipasi = getValue('r420@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
-                                    "componentEnable": ["r420@$ROW$"],
+                                    "enableCondition": "let partisipasi = getValue('r420A@$ROW$'); \n\n if(partisipasi != undefined && partisipasi != '') { partisipasi[0].value != '2' }",
+                                    "componentEnable": ["r420A@$ROW$"],
                                     "options": [
                                         {
                                             "label": "1. Tidak menggunakan internet",
@@ -1359,7 +1359,7 @@
                                 },
                                 {
                                     "label": "r428. A. Apakah (nama) mengalamami kesulitan/gangguan penghlihatan meskipun menggunakan alat bantu melihat?",
-                                    "dataKey": "r428",
+                                    "dataKey": "r428A",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
@@ -1386,8 +1386,8 @@
                                     ]
                                 },
                                 {
-                                    "label": "r4281. B. Apakah (nama) mengalamami kesulitan/gangguan pendengaran meskipun menggunakan alat bantu dengar?",
-                                    "dataKey": "r4281",
+                                    "label": "r428. B. Apakah (nama) mengalamami kesulitan/gangguan pendengaran meskipun menggunakan alat bantu dengar?",
+                                    "dataKey": "r428B",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
@@ -1414,8 +1414,8 @@
                                     ]
                                 },
                                 {
-                                    "label": "r4282. C. Apakah (nama) mengalamami kesulitan/gangguan berjalan atau naik tangga?",
-                                    "dataKey": "r4282",
+                                    "label": "r428. C. Apakah (nama) mengalamami kesulitan/gangguan berjalan atau naik tangga?",
+                                    "dataKey": "r428C",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
@@ -1442,8 +1442,8 @@
                                     ]
                                 },
                                 {
-                                    "label": "r4283. D. Apakah (nama) mengalamami kesulitan/gangguan menggerakkan/menggunakan tangan/jari?",
-                                    "dataKey": "r4283",
+                                    "label": "r428. D. Apakah (nama) mengalamami kesulitan/gangguan menggerakkan/menggunakan tangan/jari?",
+                                    "dataKey": "r428D",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
@@ -1470,8 +1470,8 @@
                                     ]
                                 },
                                 {
-                                    "label": "r4284. E. Dibangdingkan dengan penduduk yang sebaya, apakah (nama) mengalami kesulitan/gangguan dalam belajar atau kemampuan intelektual?",
-                                    "dataKey": "r4284",
+                                    "label": "r428. E. Dibangdingkan dengan penduduk yang sebaya, apakah (nama) mengalami kesulitan/gangguan dalam belajar atau kemampuan intelektual?",
+                                    "dataKey": "r428E",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
@@ -1498,8 +1498,8 @@
                                     ]
                                 },
                                 {
-                                    "label": "r4285. F. Dibandingkan dengan penduduk yang sebaya, apakah (nama) mengalami kesulitan/gangguan mengendalikan perilaku?",
-                                    "dataKey": "r4285",
+                                    "label": "r428. F. Dibandingkan dengan penduduk yang sebaya, apakah (nama) mengalami kesulitan/gangguan mengendalikan perilaku?",
+                                    "dataKey": "r428F",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
@@ -1526,8 +1526,8 @@
                                     ]
                                 },
                                 {
-                                    "label": "r4286. G. Apakah (nama) mengalamami kesulitan/gangguan berbicara/berkomunikasi?",
-                                    "dataKey": "r4286",
+                                    "label": "r428. G. Apakah (nama) mengalamami kesulitan/gangguan berbicara/berkomunikasi?",
+                                    "dataKey": "r428G",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
@@ -1554,8 +1554,8 @@
                                     ]
                                 },
                                 {
-                                    "label": "r4287. H. Apakah (nama) mengalamami kesulitan/gangguan untuk mengurus diri sendiri? (mandi, makan, berpakaian, BAK, BAB)",
-                                    "dataKey": "r4287",
+                                    "label": "r428. H. Apakah (nama) mengalamami kesulitan/gangguan untuk mengurus diri sendiri? (mandi, makan, berpakaian, BAK, BAB)",
+                                    "dataKey": "r428H",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
@@ -1582,8 +1582,8 @@
                                     ]
                                 },
                                 {
-                                    "label": "r4288. I. Apakah (nama) mengalamami kesulitan/gangguan mengingat/berkonsentrasi?",
-                                    "dataKey": "r4288",
+                                    "label": "r428. I. Apakah (nama) mengalamami kesulitan/gangguan mengingat/berkonsentrasi?",
+                                    "dataKey": "r428I",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
@@ -1610,8 +1610,8 @@
                                     ]
                                 },
                                 {
-                                    "label": "r4289. J. Seberapa sering (nama) mengalami gangguan kesedihan depresi?",
-                                    "dataKey": "r4289",
+                                    "label": "r428. J. Seberapa sering (nama) mengalami gangguan kesedihan depresi?",
+                                    "dataKey": "r428J",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
@@ -1752,7 +1752,7 @@
                                 },
                                 {
                                     "label": "r431. A. Dalam satu tahun terakhir, apakah (nama) memilki jaminan kesehatan?",
-                                    "dataKey": "r431",
+                                    "dataKey": "r431A",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
@@ -1787,8 +1787,8 @@
                                     ]
                                 },
                                 {
-                                    "label": "r4311. B. Dalam satu tahun terakhir, apakah (nama) ikut serta dalam Program Pra-Kerja?",
-                                    "dataKey": "r4311",
+                                    "label": "r431. B. Dalam satu tahun terakhir, apakah (nama) ikut serta dalam Program Pra-Kerja?",
+                                    "dataKey": "r431B",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
@@ -1811,8 +1811,8 @@
                                     ]
                                 },
                                 {
-                                    "label": "r4312. C. Dalam satu tahun terakhir, apakah (nama) ikut serta dalam Program Kredit Usaha Rakyat (KUR)?",
-                                    "dataKey": "r4312",
+                                    "label": "r431. C. Dalam satu tahun terakhir, apakah (nama) ikut serta dalam Program Kredit Usaha Rakyat (KUR)?",
+                                    "dataKey": "r431C",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
@@ -1835,8 +1835,8 @@
                                     ]
                                 },
                                 {
-                                    "label": "r4313. D. Dalam satu tahun terakhir, apakah (nama) ikut serta dalam Program Pembiayaan Ultra Mikro (UMi)?",
-                                    "dataKey": "r4313",
+                                    "label": "r431. D. Dalam satu tahun terakhir, apakah (nama) ikut serta dalam Program Pembiayaan Ultra Mikro (UMi)?",
+                                    "dataKey": "r431D",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
@@ -1859,8 +1859,8 @@
                                     ]
                                 },
                                 {
-                                    "label": "r4314. E. Dalam satu tahun terakhir, apakah (nama) ikut serta dalam Program Indonesia Pintar (PIP)?",
-                                    "dataKey": "r4314",
+                                    "label": "r431. E. Dalam satu tahun terakhir, apakah (nama) ikut serta dalam Program Indonesia Pintar (PIP)?",
+                                    "dataKey": "r431E",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
@@ -1883,8 +1883,8 @@
                                     ]
                                 },
                                 {
-                                    "label": "r4315. F. Dalam satu tahun terakhir, apakah (nama) memiliki jaminan ketenagakerjaan?",
-                                    "dataKey": "r4315",
+                                    "label": "r431. F. Dalam satu tahun terakhir, apakah (nama) memiliki jaminan ketenagakerjaan?",
+                                    "dataKey": "r431F",
                                     "type": 27,
                                     "typeOption": 1,
                                     "required": true,
@@ -1943,7 +1943,7 @@
                         },
                         {
                             "label": "r301. A. Status kepemilikan bangunan tempat tinggal yang ditempati?",
-                            "dataKey": "r301",
+                            "dataKey": "r301A",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -1973,13 +1973,13 @@
                         },
                         {
                             "label": "r301. B. Jika pertanyaan sebelumnya memilih no 1, apa jenis bukti kepemilikan tanah bangunan tempat tinggal ini?",
-                            "dataKey": "r3011",
+                            "dataKey": "r301B",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
                             "enableRemark": false,
-                            "enableCondition": "let r301 = getValue('r301')[0]?.value \n\n r301 == 1",
-                            "componentEnable": ["r301"],
+                            "enableCondition": "let r301A = getValue('r301A')[0]?.value \n\n r301 == 1",
+                            "componentEnable": ["r301A"],
                             "options": [
                                 {
                                     "label": "1. SHM atas Nama Anggota Keluarga",
@@ -2147,7 +2147,7 @@
                         },
                         {
                             "label": "r306. A. Sumber air minum utama?",
-                            "dataKey": "r306",
+                            "dataKey": "r306A",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2200,14 +2200,14 @@
                             ]
                         },
                         {
-                            "label": "r3061. B. Jika pertanyaan sebelumnya memilih nomor 4, 5, 6, 7, atau 8. Seberapa jauh jarak sumber air minum utama ke tempat penampungan limbah/kotoran/tinja terdekat ?",
-                            "dataKey": "r3061",
+                            "label": "r306. B. Jika pertanyaan sebelumnya memilih nomor 4, 5, 6, 7, atau 8. Seberapa jauh jarak sumber air minum utama ke tempat penampungan limbah/kotoran/tinja terdekat ?",
+                            "dataKey": "r306B",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
                             "enableRemark": false,
-                            "enableCondition": "let r306 = getValue('r306')[0]?.value \n\n r306 == 4 || r306 == 5 || r306 == 6 || r306 == 7 || r306 == 8",
-                            "componentEnable": ["r306"],
+                            "enableCondition": "let r306A = getValue('r306A')[0]?.value \n\n r306 == 4 || r306 == 5 || r306 == 6 || r306 == 7 || r306 == 8",
+                            "componentEnable": ["r306A"],
                             "options": [
                                 {
                                     "label": "1. < 10 meter",
@@ -2225,7 +2225,7 @@
                         },
                         {
                             "label": "r307. A. Sumber peneragan utama ?",
-                            "dataKey": "r307",
+                            "dataKey": "r307A",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2250,14 +2250,14 @@
                             ]
                         },
                         {
-                            "label": "r3071. B. Jika pertanyaan sebelumnya memilih nomor 1. Daya yang terpasang di rumah ini ?",
-                            "dataKey": "r3071",
+                            "label": "r307. B. Jika pertanyaan sebelumnya memilih nomor 1. Daya yang terpasang di rumah ini ?",
+                            "dataKey": "r307B",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
                             "enableRemark": false,
-                            "enableCondition": "let r307 = getValue('r307')[0]?.value \n\n r307 == 1",
-                            "componentEnable": ["r307"],
+                            "enableCondition": "let r307A = getValue('r307A')[0]?.value \n\n r307 == 1",
+                            "componentEnable": ["r307A"],
                             "options": [
                                 {
                                     "label": "1. 450 watt",
@@ -2341,7 +2341,7 @@
                         },
                         {
                             "label": "r309. A. Kepemilikan dan penggunan fasilatas tempat buang air besar ?",
-                            "dataKey": "r309",
+                            "dataKey": "r309A",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2374,14 +2374,14 @@
                             ]
                         },
                         {
-                            "label": "r3091. B. Jika pertanyaan sebelumnya memilih nomor 1, 2, atau 3. Jenis kloset",
-                            "dataKey": "r3091",
+                            "label": "r309. B. Jika pertanyaan sebelumnya memilih nomor 1, 2, atau 3. Jenis kloset",
+                            "dataKey": "r309B",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
                             "enableRemark": false,
-                            "enableCondition": "let r309 = getValue('r309')[0]?.value \n\n r309 == 1 || r309 == 2 || r309 == 3 ",
-                            "componentEnable": ["r309"],
+                            "enableCondition": "let r309A = getValue('r309A')[0]?.value \n\n r309 == 1 || r309 == 2 || r309 == 3 ",
+                            "componentEnable": ["r309A"],
                             "options": [
                                 {
                                     "label": "1. Leher angsa",
@@ -2460,8 +2460,8 @@
                             ]
                         },
                         {
-                            "label": "r5011. A. Program Bantuan Sosial Sembako/BPNT ",
-                            "dataKey": "r5011",
+                            "label": "r501. A. Program Bantuan Sosial Sembako/BPNT ",
+                            "dataKey": "r501A",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2478,8 +2478,8 @@
                             ]
                         },
                         {
-                            "label": "r5012. B. Program Keluarga Harapan (PKH) ",
-                            "dataKey": "r5012",
+                            "label": "r501. B. Program Keluarga Harapan (PKH) ",
+                            "dataKey": "r501B",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2496,8 +2496,8 @@
                             ]
                         },
                         {
-                            "label": "r5013. C. Program Bantuan Langsung Tunai (BLT) Desa ",
-                            "dataKey": "r5013",
+                            "label": "r501. C. Program Bantuan Langsung Tunai (BLT) Desa ",
+                            "dataKey": "r501C",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2514,8 +2514,8 @@
                             ]
                         },
                         {
-                            "label": "r5014. D. Program Subsidi Listrik (gratis/pemotongan biaya) ",
-                            "dataKey": "r5014",
+                            "label": "r501. D. Program Subsidi Listrik (gratis/pemotongan biaya) ",
+                            "dataKey": "r501D",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2532,8 +2532,8 @@
                             ]
                         },
                         {
-                            "label": "r5015. E. Program Bantuan Pemerintah Daerah ",
-                            "dataKey": "r5015",
+                            "label": "r501. E. Program Bantuan Pemerintah Daerah ",
+                            "dataKey": "r501E",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2550,8 +2550,8 @@
                             ]
                         },
                         {
-                            "label": "r5016. F. Program Bantuan Subsidi Pupuk ",
-                            "dataKey": "r5016",
+                            "label": "r501. F. Program Bantuan Subsidi Pupuk ",
+                            "dataKey": "r501F",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2568,8 +2568,8 @@
                             ]
                         },
                         {
-                            "label": "r5017. G. Program Subsidi LPG ",
-                            "dataKey": "r5017",
+                            "label": "r501. G. Program Subsidi LPG ",
+                            "dataKey": "r501G",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2604,8 +2604,8 @@
                             ]
                         },
                         {
-                            "label": "r5021. A. Tabung gas 5,5 kg atau lebih",
-                            "dataKey": "r5021",
+                            "label": "r502. A. Tabung gas 5,5 kg atau lebih",
+                            "dataKey": "r502A",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2622,8 +2622,8 @@
                             ]
                         },
                         {
-                            "label": "r5022. B. Lemari es/Kulkas",
-                            "dataKey": "r5022",
+                            "label": "r502. B. Lemari es/Kulkas",
+                            "dataKey": "r502B",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2640,8 +2640,8 @@
                             ]
                         },
                         {
-                            "label": "r5023. C. Air Conditioner (AC) ",
-                            "dataKey": "r5023",
+                            "label": "r502. C. Air Conditioner (AC) ",
+                            "dataKey": "r502C",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2658,8 +2658,8 @@
                             ]
                         },
                         {
-                            "label": "r5024. D. Pemanas air (water heater) ",
-                            "dataKey": "r5024",
+                            "label": "r502. D. Pemanas air (water heater) ",
+                            "dataKey": "r502D",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2676,8 +2676,8 @@
                             ]
                         },
                         {
-                            "label": "r5025. E. Telepon rumah (PTSN) ",
-                            "dataKey": "r5025",
+                            "label": "r502. E. Telepon rumah (PTSN) ",
+                            "dataKey": "r502E",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2694,8 +2694,8 @@
                             ]
                         },
                         {
-                            "label": "r5026. F. Televisi layar datar (min. 30 inci)",
-                            "dataKey": "r5026",
+                            "label": "r502. F. Televisi layar datar (min. 30 inci)",
+                            "dataKey": "r502F",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2712,8 +2712,8 @@
                             ]
                         },
                         {
-                            "label": "r5027. G. Emas/perhiasan (min. 10 gram) ",
-                            "dataKey": "r5027",
+                            "label": "r502. G. Emas/perhiasan (min. 10 gram) ",
+                            "dataKey": "r502G",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2730,8 +2730,8 @@
                             ]
                         },
                         {
-                            "label": "r5028. H. Komputer/Laptop/Tablet ",
-                            "dataKey": "r5028",
+                            "label": "r502. H. Komputer/Laptop/Tablet ",
+                            "dataKey": "r502H",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2748,8 +2748,8 @@
                             ]
                         },
                         {
-                            "label": "r5029. I. Sepeda Motor ",
-                            "dataKey": "r5029",
+                            "label": "r502. I. Sepeda Motor ",
+                            "dataKey": "r502I",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2766,8 +2766,8 @@
                             ]
                         },
                         {
-                            "label": "r50210. J. Sepeda ",
-                            "dataKey": "r50210",
+                            "label": "r502. J. Sepeda ",
+                            "dataKey": "r502J",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2784,8 +2784,8 @@
                             ]
                         },
                         {
-                            "label": "r50211. K. Mobil ",
-                            "dataKey": "r50211",
+                            "label": "r502. K. Mobil ",
+                            "dataKey": "r502K",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2802,8 +2802,8 @@
                             ]
                         },
                         {
-                            "label": "r50212. I. Perahu ",
-                            "dataKey": "r50212",
+                            "label": "r502. L. Perahu ",
+                            "dataKey": "r502L",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2820,8 +2820,8 @@
                             ]
                         },
                         {
-                            "label": "r50213. M. Kapal/Perahu Motor ",
-                            "dataKey": "r50213",
+                            "label": "r502. M. Kapal/Perahu Motor ",
+                            "dataKey": "r502M",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2838,8 +2838,8 @@
                             ]
                         },
                         {
-                            "label": "r50214. N. Smarphone ",
-                            "dataKey": "r50214",
+                            "label": "r502. N. Smarphone ",
+                            "dataKey": "r502N",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2874,8 +2874,8 @@
                             ]
                         },
                         {
-                            "label": "5031. A. Memiliki Lahan (selain yang ditempati) ",
-                            "dataKey": "r5031",
+                            "label": "503. A. Memiliki Lahan (selain yang ditempati) ",
+                            "dataKey": "r503A",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,
@@ -2892,8 +2892,8 @@
                             ]
                         },
                         {
-                            "label": "r5032. B. Memiliki rumah/bangunan di tempat lain ",
-                            "dataKey": "r5032",
+                            "label": "r503. B. Memiliki rumah/bangunan di tempat lain ",
+                            "dataKey": "r503B",
                             "type": 27,
                             "typeOption": 1,
                             "required": true,

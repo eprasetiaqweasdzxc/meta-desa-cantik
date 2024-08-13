@@ -15,118 +15,118 @@
             ]
         },
         {
-            "dataKey": "kn",
-            "componentValidation": ["kn"],
+            "dataKey": "r105",
+            "componentValidation": ["r105"],
             "validations": [
                 {
-                    "test": "let value = getValue('kn'); value && value.trim().length === 0",
+                    "test": "let value = getValue('r105'); value && value.trim().length === 0",
                     "message": "Isi dengan lengkap",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "nn",
-            "componentValidation": ["nn"],
+            "dataKey": "r106",
+            "componentValidation": ["r106"],
             "validations": [
                 {
-                    "test": "let value = getValue('nn'); value && value.trim().length === 0",
+                    "test": "let value = getValue('r106'); value && value.trim().length === 0",
                     "message": "Isi dengan lengkap",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "almt",
-            "componentValidation": ["almt"],
+            "dataKey": "r107",
+            "componentValidation": ["r107"],
             "validations": [
                 {
-                    "test": "let value = getValue('almt'); value && value.trim().length === 0",
+                    "test": "let value = getValue('r107'); value && value.trim().length === 0",
                     "message": "Isi dengan lengkap",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "nkk",
-            "componentValidation": ["nkk"],
+            "dataKey": "r108",
+            "componentValidation": ["r108"],
             "validations": [
                 {
-                    "test": "let value = getValue('nkk'); value && !/^[a-zA-Z\\s]*$/.test(value)",
+                    "test": "let value = getValue('r108'); value && !/^[a-zA-Z\\s]*$/.test(value)",
                     "message": "Hanya boleh diisi dengan huruf dan spaasi",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "nubtt",
-            "componentValidation": ["nubtt"],
+            "dataKey": "r109",
+            "componentValidation": ["r109"],
             "validations": [
                 {
-                    "test": "let value = getValue('nubtt'); value && !/^\\d+$/.test(value)",
+                    "test": "let value = getValue('r109'); value && !/^\\d+$/.test(value)",
                     "message": "Hanya boleh diisi dengan angka",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "nukhv",
-            "componentValidation": ["nukhv"],
+            "dataKey": "r110",
+            "componentValidation": ["r110"],
             "validations": [
                 {
-                    "test": "let value = getValue('nukhv'); value && !/^\\d+$/.test(value)",
+                    "test": "let value = getValue('r110'); value && !/^\\d+$/.test(value)",
                     "message": "Hanya boleh diisi dengan angka",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "sk",
-            "componentValidation": ["sk"],
+            "dataKey": "r111",
+            "componentValidation": ["r111"],
             "validations": [
                 {
-                    "test": "let value = getValue('sk'); value && !/^[a-zA-Z\\s]+$/.test(value)",
+                    "test": "let value = getValue('r111'); value && !/^[a-zA-Z\\s]+$/.test(value)",
                     "message": "Hanya boleh diisi dengan huruf",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "jak",
-            "componentValidation": ["jak"],
+            "dataKey": "r112",
+            "componentValidation": ["r112"],
             "validations": [
                 {
-                    "test": "let value = getValue('jak'); value && !/^\\d+$/.test(value)",
+                    "test": "let value = getValue('r112'); value && !/^\\d+$/.test(value)",
                     "message": "Hanya boleh diisi dengan angka",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "ilw",
-            "componentValidation": ["ilw"],
+            "dataKey": "r113",
+            "componentValidation": ["r113"],
             "validations": [
                 {
-                    "test": "let value = getValue('ilw'); value && !/^[a-zA-Z0-9]+$/.test(value)",
+                    "test": "let value = getValue('r113'); value && !/^[a-zA-Z0-9]+$/.test(value)",
                     "message": "Hanya boleh diisi dengan huruf dan angka, tidak boleh ada simbol atau spasi",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "nokk",
-            "componentValidation": ["nokk"],
+            "dataKey": "r114",
+            "componentValidation": ["r114"],
             "validations": [
                 {
-                    "test": "let value = getValue('nokk'); value && String(value).length !== 16",
+                    "test": "let value = getValue('r114'); value && String(value).length !== 16",
                     "message": "Nomor Kartu Keluarga harus terdiri dari 16 karakter",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "kkk",
-            "componentValidation": ["kkk"],
+            "dataKey": "r115",
+            "componentValidation": ["r115"],
             "validations": [
                 {
                     "test": "let value = getValue('kkk'); value === '' || value === null ? false : value < 1",
@@ -348,22 +348,22 @@
             ]
         },
         {
-            "dataKey": "r416",
-            "componentValidation": ["r416@$ROW$"],
+            "dataKey": "r416A",
+            "componentValidation": ["r416A@$ROW$"],
             "validations": [
                 {
-                    "test": "getValue('r416#'+getRowIndex(0)) < 1",
+                    "test": "getValue('r416A#'+getRowIndex(0)) < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r4161",
-            "componentValidation": ["r4161@$ROW$"],
+            "dataKey": "r416B",
+            "componentValidation": ["r416B@$ROW$"],
             "validations": [
                 {
-                    "test": "let value = getValue('r4161#' + getRowIndex(0)); !/^[0-9]+$/.test(value)",
+                    "test": "let value = getValue('r416B#' + getRowIndex(0)); !/^[0-9]+$/.test(value)",
                     "message": "Hanya boleh diisi dengan angka",
                     "type": 2
                 }
@@ -403,22 +403,22 @@
             ]
         },
         {
-            "dataKey": "r420",
-            "componentValidation": ["r420@$ROW$"],
+            "dataKey": "r420A",
+            "componentValidation": ["r420A@$ROW$"],
             "validations": [
                 {
-                    "test": "getValue('r420#'+getRowIndex(0)) < 1",
+                    "test": "getValue('r420A#'+getRowIndex(0)) < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r4201",
-            "componentValidation": ["r4201@$ROW$"],
+            "dataKey": "r420B",
+            "componentValidation": ["r420B@$ROW$"],
             "validations": [
                 {
-                    "test": "let value = getValue('r4201#' + getRowIndex(0)); !/^[0-9]+$/.test(value)",
+                    "test": "let value = getValue('r420B#' + getRowIndex(0)); !/^[0-9]+$/.test(value)",
                     "message": "Hanya boleh diisi dengan angka",
                     "type": 2
                 }
@@ -491,7 +491,7 @@
             ]
         },
         {
-            "dataKey": "r427g",
+            "dataKey": "r427",
             "componentValidation": ["r427@$ROW$"],
             "validations": [
                 {
@@ -502,110 +502,110 @@
             ]
         },
         {
-            "dataKey": "r428",
-            "componentValidation": ["r428@$ROW$"],
+            "dataKey": "r428A",
+            "componentValidation": ["r428A@$ROW$"],
             "validations": [
                 {
-                    "test": "getValue('r428#'+getRowIndex(0)) < 1",
+                    "test": "getValue('r428A#'+getRowIndex(0)) < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r4281",
-            "componentValidation": ["r4281@$ROW$"],
+            "dataKey": "r428B",
+            "componentValidation": ["r428B@$ROW$"],
             "validations": [
                 {
-                    "test": "getValue('r4281#'+getRowIndex(0)) < 1",
+                    "test": "getValue('r428B#'+getRowIndex(0)) < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r4282",
-            "componentValidation": ["r4282@$ROW$"],
+            "dataKey": "r428C",
+            "componentValidation": ["r428C@$ROW$"],
             "validations": [
                 {
-                    "test": "getValue('r4282#'+getRowIndex(0)) < 1",
+                    "test": "getValue('r428C#'+getRowIndex(0)) < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r4283",
-            "componentValidation": ["r4283@$ROW$"],
+            "dataKey": "r428D",
+            "componentValidation": ["r428D@$ROW$"],
             "validations": [
                 {
-                    "test": "getValue('r4283#'+getRowIndex(0)) < 1",
+                    "test": "getValue('r428D#'+getRowIndex(0)) < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r4284",
-            "componentValidation": ["r4284@$ROW$"],
+            "dataKey": "r428E",
+            "componentValidation": ["r428E@$ROW$"],
             "validations": [
                 {
-                    "test": "getValue('r4284#'+getRowIndex(0)) < 1",
+                    "test": "getValue('r428E#'+getRowIndex(0)) < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r4285",
-            "componentValidation": ["r4285@$ROW$"],
+            "dataKey": "r428F",
+            "componentValidation": ["r428F@$ROW$"],
             "validations": [
                 {
-                    "test": "getValue('r4285#'+getRowIndex(0)) < 1",
+                    "test": "getValue('r428F#'+getRowIndex(0)) < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r4286",
-            "componentValidation": ["r4286@$ROW$"],
+            "dataKey": "r428G",
+            "componentValidation": ["r428G@$ROW$"],
             "validations": [
                 {
-                    "test": "getValue('r4286#'+getRowIndex(0)) < 1",
+                    "test": "getValue('r428G#'+getRowIndex(0)) < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r4287",
-            "componentValidation": ["r4287@$ROW$"],
+            "dataKey": "r428H",
+            "componentValidation": ["r428H@$ROW$"],
             "validations": [
                 {
-                    "test": "getValue('r4287#'+getRowIndex(0)) < 1",
+                    "test": "getValue('r428H#'+getRowIndex(0)) < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r4288",
-            "componentValidation": ["r4288@$ROW$"],
+            "dataKey": "r428I",
+            "componentValidation": ["r428I@$ROW$"],
             "validations": [
                 {
-                    "test": "getValue('r4288#'+getRowIndex(0)) < 1",
+                    "test": "getValue('r428I#'+getRowIndex(0)) < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r4289",
-            "componentValidation": ["r4289@$ROW$"],
+            "dataKey": "r428J",
+            "componentValidation": ["r428J@$ROW$"],
             "validations": [
                 {
-                    "test": "getValue('r4289#'+getRowIndex(0)) < 1",
+                    "test": "getValue('r428J#'+getRowIndex(0)) < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
@@ -634,66 +634,66 @@
             ]
         },
         {
-            "dataKey": "r431",
-            "componentValidation": ["r431@$ROW$"],
+            "dataKey": "r431A",
+            "componentValidation": ["r431A@$ROW$"],
             "validations": [
                 {
-                    "test": "getValue('r431#'+getRowIndex(0)) < 1",
+                    "test": "getValue('r431A#'+getRowIndex(0)) < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r4311",
-            "componentValidation": ["r4311@$ROW$"],
+            "dataKey": "r431B",
+            "componentValidation": ["r431B@$ROW$"],
             "validations": [
                 {
-                    "test": "getValue('r4311#'+getRowIndex(0)) < 1",
+                    "test": "getValue('r431B#'+getRowIndex(0)) < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r4312",
-            "componentValidation": ["r4312@$ROW$"],
+            "dataKey": "r431C",
+            "componentValidation": ["r431C@$ROW$"],
             "validations": [
                 {
-                    "test": "getValue('r4312#'+getRowIndex(0)) < 1",
+                    "test": "getValue('r431C#'+getRowIndex(0)) < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r4313",
-            "componentValidation": ["r4313@$ROW$"],
+            "dataKey": "r431D",
+            "componentValidation": ["r431D@$ROW$"],
             "validations": [
                 {
-                    "test": "getValue('r4313#'+getRowIndex(0)) < 1",
+                    "test": "getValue('r431D#'+getRowIndex(0)) < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r4314",
-            "componentValidation": ["r4314@$ROW$"],
+            "dataKey": "r431E",
+            "componentValidation": ["r431E@$ROW$"],
             "validations": [
                 {
-                    "test": "getValue('r4314#'+getRowIndex(0)) < 1",
+                    "test": "getValue('r431E#'+getRowIndex(0)) < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r4315",
-            "componentValidation": ["r4315@$ROW$"],
+            "dataKey": "r431F",
+            "componentValidation": ["r431F@$ROW$"],
             "validations": [
                 {
-                    "test": "getValue('r4315#'+getRowIndex(0)) < 1",
+                    "test": "getValue('r431F#'+getRowIndex(0)) < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
@@ -701,22 +701,22 @@
         },
 
         {
-            "dataKey": "r301",
-            "componentValidation": ["r301"],
+            "dataKey": "r301A",
+            "componentValidation": ["r301A"],
             "validations": [
                 {
-                    "test": "let value = getValue('r301'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r301A'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r3011",
-            "componentValidation": ["r3011"],
+            "dataKey": "r301B",
+            "componentValidation": ["r301B"],
             "validations": [
                 {
-                    "test": "let value = getValue('r3011'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r301B'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
@@ -767,44 +767,44 @@
             ]
         },
         {
-            "dataKey": "r306",
-            "componentValidation": ["r306"],
+            "dataKey": "r306A",
+            "componentValidation": ["r306A"],
             "validations": [
                 {
-                    "test": "let value = getValue('r306'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r306A'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r3061",
-            "componentValidation": ["r3061"],
+            "dataKey": "r306B",
+            "componentValidation": ["r306B"],
             "validations": [
                 {
-                    "test": "let value = getValue('r3061'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r306B'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r307",
-            "componentValidation": ["r307"],
+            "dataKey": "r307A",
+            "componentValidation": ["r307A"],
             "validations": [
                 {
-                    "test": "let value = getValue('r307'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r307A'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r3071",
-            "componentValidation": ["r3071"],
+            "dataKey": "r307B",
+            "componentValidation": ["r307B"],
             "validations": [
                 {
-                    "test": "let value = getValue('r3071'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r307B'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
@@ -822,22 +822,22 @@
             ]
         },
         {
-            "dataKey": "r309",
-            "componentValidation": ["r309"],
+            "dataKey": "r309A",
+            "componentValidation": ["r309A"],
             "validations": [
                 {
-                    "test": "let value = getValue('r309'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r309A'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r3091",
-            "componentValidation": ["r3091"],
+            "dataKey": "r309B",
+            "componentValidation": ["r309B"],
             "validations": [
                 {
-                    "test": "let value = getValue('r3091'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r309B'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
@@ -866,77 +866,77 @@
             ]
         },
         {
-            "dataKey": "r5011",
-            "componentValidation": ["r5011"],
+            "dataKey": "r501A",
+            "componentValidation": ["r501A"],
             "validations": [
                 {
-                    "test": "let value = getValue('r5011'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r501A'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r5012",
-            "componentValidation": ["r5012"],
+            "dataKey": "r501B",
+            "componentValidation": ["r501B"],
             "validations": [
                 {
-                    "test": "let value = getValue('r5012'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r501B'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r5013",
-            "componentValidation": ["r5013"],
+            "dataKey": "r501C",
+            "componentValidation": ["r501C"],
             "validations": [
                 {
-                    "test": "let value = getValue('r5013'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r501C'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r5014",
-            "componentValidation": ["r5014"],
+            "dataKey": "r501D",
+            "componentValidation": ["r501D"],
             "validations": [
                 {
-                    "test": "let value = getValue('r5014'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r501D'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r5015",
-            "componentValidation": ["r5015"],
+            "dataKey": "r501E",
+            "componentValidation": ["r501E"],
             "validations": [
                 {
-                    "test": "let value = getValue('r5015'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r501E'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r5016",
-            "componentValidation": ["r5016"],
+            "dataKey": "r501F",
+            "componentValidation": ["r501F"],
             "validations": [
                 {
-                    "test": "let value = getValue('r5016'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getV alue('r501F'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r5017",
-            "componentValidation": ["r5017"],
+            "dataKey": "r501G",
+            "componentValidation": ["r501G"],
             "validations": [
                 {
-                    "test": "let value = getValue('r5017'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r501G'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
@@ -954,154 +954,154 @@
             ]
         },
         {
-            "dataKey": "r5021",
-            "componentValidation": ["r5021"],
+            "dataKey": "r502A",
+            "componentValidation": ["r502A"],
             "validations": [
                 {
-                    "test": "let value = getValue('r5021'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r502A'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r5022",
-            "componentValidation": ["r5022"],
+            "dataKey": "r502B",
+            "componentValidation": ["r502B"],
             "validations": [
                 {
-                    "test": "let value = getValue('r5022'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r502B'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r5023",
-            "componentValidation": ["r5023"],
+            "dataKey": "r502C",
+            "componentValidation": ["r502C"],
             "validations": [
                 {
-                    "test": "let value = getValue('r5023'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r502C'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r5024",
-            "componentValidation": ["r5024"],
+            "dataKey": "r502D",
+            "componentValidation": ["r502D"],
             "validations": [
                 {
-                    "test": "let value = getValue('r5024'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r502D'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r5025",
-            "componentValidation": ["r5025"],
+            "dataKey": "r502E",
+            "componentValidation": ["r502E"],
             "validations": [
                 {
-                    "test": "let value = getValue('r5025'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r502E'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r5026",
-            "componentValidation": ["r5026"],
+            "dataKey": "r502F",
+            "componentValidation": ["r502F"],
             "validations": [
                 {
-                    "test": "let value = getValue('r5026'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r502F'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r5027",
-            "componentValidation": ["r5027"],
+            "dataKey": "r502G",
+            "componentValidation": ["r502G"],
             "validations": [
                 {
-                    "test": "let value = getValue('r5027'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r502G'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r5028",
-            "componentValidation": ["r5028"],
+            "dataKey": "r502H",
+            "componentValidation": ["r502H"],
             "validations": [
                 {
-                    "test": "let value = getValue('r5028'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r502H'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r5029",
-            "componentValidation": ["r5029"],
+            "dataKey": "r502I",
+            "componentValidation": ["r502I"],
             "validations": [
                 {
-                    "test": "let value = getValue('r5029'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r502I'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r50210",
-            "componentValidation": ["r50210"],
+            "dataKey": "r502J",
+            "componentValidation": ["r502J"],
             "validations": [
                 {
-                    "test": "let value = getValue('r50210'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r502J'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r50211",
-            "componentValidation": ["r50211"],
+            "dataKey": "r502K",
+            "componentValidation": ["r502K"],
             "validations": [
                 {
-                    "test": "let value = getValue('r50211'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r502K'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r50212",
-            "componentValidation": ["r50212"],
+            "dataKey": "r502L",
+            "componentValidation": ["r502L"],
             "validations": [
                 {
-                    "test": "let value = getValue('r50212'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r502L'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r50213",
-            "componentValidation": ["r50213"],
+            "dataKey": "r502M",
+            "componentValidation": ["r502M"],
             "validations": [
                 {
-                    "test": "let value = getValue('r50213'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r502M'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r50214",
-            "componentValidation": ["r50214"],
+            "dataKey": "r502N",
+            "componentValidation": ["r502N"],
             "validations": [
                 {
-                    "test": "let value = getValue('r50214'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r502N'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
@@ -1119,22 +1119,22 @@
             ]
         },
         {
-            "dataKey": "r5031",
-            "componentValidation": ["r5031"],
+            "dataKey": "r503A",
+            "componentValidation": ["r503A"],
             "validations": [
                 {
-                    "test": "let value = getValue('r5031'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r503A'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
             ]
         },
         {
-            "dataKey": "r0532",
-            "componentValidation": ["r5032"],
+            "dataKey": "r503B",
+            "componentValidation": ["r503B"],
             "validations": [
                 {
-                    "test": "let value = getValue('r5032'); value === '' || value === null ? false : value < 1",
+                    "test": "let value = getValue('r503B'); value === '' || value === null ? false : value < 1",
                     "message": "Pilih salah satu",
                     "type": 2
                 }
